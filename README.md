@@ -8,7 +8,7 @@ including:
    [Documentation](./Kali-Linux-Installation/HOW%20TO%20SETUP%20KALI%20LINUX%20VM.md): Step-by-step instructions for installing and configuring Kali Linux on VirtualBox.
 
 2. **Vulnerability Scanning with Nmap**  
-   [Documentation](./Nmap-Scanning/VULNERABILITY%20SCANNING%20WITH%20NMAP.md): A detailed guide to scanning Metasploitable 2 using Nmap.
+   [Documentation](./Vulnerability-Scanning-Using-Nmap/VULNERABILITY%20SCANNING%20WITH%20NMAP.md): A detailed guide to scanning Metasploitable 2 using Nmap.
 
 3. **Windscribe VPN Setup**  
    [Documentation](./Windscribe-Configuration&Setup-On-Kali-Linux/WINDSCRIBE%20CONFIGURATION%20&%20SETUP.md): Instructions for installing and configuring Windscribe VPN on Kali Linux.

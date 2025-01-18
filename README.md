@@ -5,7 +5,7 @@ This repository contains detailed documentation and practical examples of cybers
 including:
 
 1. **Kali Linux Setup**  
-   [Documentation](./Kali-Linux-Setup/HOW%20TO%20SETUP%20KALI%20LINUX%20VM.md): Step-by-step instructions for installing and configuring Kali Linux on VirtualBox.
+   [Documentation](./Kali-Linux-Installation/HOW%20TO%20SETUP%20KALI%20LINUX%20VM.md): Step-by-step instructions for installing and configuring Kali Linux on VirtualBox.
 
 2. **Vulnerability Scanning with Nmap**  
    [Documentation](./Nmap-Scanning/VULNERABILITY%20SCANNING%20WITH%20NMAP.md): A detailed guide to scanning Metasploitable 2 using Nmap.

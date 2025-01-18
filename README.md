@@ -11,7 +11,7 @@ including:
    [Documentation](./Nmap-Scanning/VULNERABILITY%20SCANNING%20WITH%20NMAP.md): A detailed guide to scanning Metasploitable 2 using Nmap.
 
 3. **Windscribe VPN Setup**  
-   [Documentation](./Windscribe-VPN/WINDSCRIBE%20CONFIGURATION%20&%20SETUP.md): Instructions for installing and configuring Windscribe VPN on Kali Linux.
+   [Documentation](./Windscribe-Configuration&Setup-On-Kali-Linux/WINDSCRIBE%20CONFIGURATION%20&%20SETUP.md): Instructions for installing and configuring Windscribe VPN on Kali Linux.
 
 ---
 

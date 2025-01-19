@@ -2,7 +2,7 @@
 
  Welcome to my Cybersecurity Projects Portfolio repository! This repository showcases my hands-on experience and practical knowledge in various cybersecurity domains. Each project is documented with detailed instructions, tools utilized, and real-world applications. Below is an overview of the key projects included in this repository.
 
-1. **Kali Linux Setup;** ( [Documentation](./Kali-Linux-Installation/HOW%20TO%20SETUP%20KALI%20LINUX%20VM.md):)
+1. **Kali Linux Setup([Documentation](./Kali-Linux-Installation/HOW%20TO%20SETUP%20KALI%20LINUX%20VM.md));**
 
    A foundational project aimed at setting up a versatile ethical hacking environment.
    

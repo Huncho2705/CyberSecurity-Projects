@@ -5,10 +5,10 @@ Open Source Intelligence (OSINT) is a crucial methodology in cybersecurity, digi
 
 Maltego is widely used by:
 
-✅ Cybersecurity professionals
-✅ Ethical hackers & penetration testers
-✅ Law enforcement & intelligence agencies
-✅ Journalists & researchers
+* Cybersecurity professionals
+* Ethical hackers & penetration testers
+* Law enforcement & intelligence agencies
+* Journalists & researchers
 
  ✨ Features
 ✔️ Comprehensive OSINT Guide – Learn the fundamentals of OSINT & Maltego

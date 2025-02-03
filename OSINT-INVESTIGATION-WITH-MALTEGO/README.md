@@ -11,11 +11,11 @@ Maltego is widely used by:
 * Journalists & researchers
 
  ✨ Features
-✔️ Comprehensive OSINT Guide – Learn the fundamentals of OSINT & Maltego
-✔️ Step-by-Step Installation – Easy setup for Windows, macOS, and Linux
-✔️ Practical Use Cases – Cybercrime investigations, threat intelligence, social engineering, and more
-✔️ Hands-On Demonstration – Real-world OSINT techniques with screenshots
-✔️ Ethical Considerations – Legal guidelines to ensure responsible OSINT practices
+* Comprehensive OSINT Guide – Learn the fundamentals of OSINT & Maltego
+* Step-by-Step Installation – Easy setup for Windows, macOS, and Linux
+* Practical Use Cases – Cybercrime investigations, threat intelligence, social engineering, and more
+* Hands-On Demonstration – Real-world OSINT techniques with screenshots
+* Ethical Considerations – Legal guidelines to ensure responsible OSINT practices
 
 🚀 Getting Started
 🔹 Installation
@@ -24,23 +24,23 @@ Maltego is pre-installed on Kali Linux, but if missing, install it with:
 `sudo apt update && sudo apt install maltego`
 
 Windows & macOS Users
-1️⃣ Download Maltego from the official website.
-2️⃣ Follow the installation wizard to set up the software.
-3️⃣ Register for a Maltego account to access Transform Hub.
+1. Download Maltego from the official website.
+2. Follow the installation wizard to set up the software.
+3. Register for a Maltego account to access Transform Hub.
 
  🔹 First Steps
-Open Maltego and complete the onboarding setup.
-Install Transform Providers from the Transform Hub (e.g., Hybrid Analysis, Shodan).
-Select an entity type (e.g., domain, IP address, social media account) and place it on the graph.
-Run transforms to retrieve intelligence and map relationships.
-Analyze and refine data using Maltego’s visualization tools.
+* Open Maltego and complete the onboarding setup.
+* Install Transform Providers from the Transform Hub (e.g., Hybrid Analysis, Shodan).
+* Select an entity type (e.g., domain, IP address, social media account) and place it on the graph.
+* Run transforms to retrieve intelligence and map relationships.
+* Analyze and refine data using Maltego’s visualization tools.
 
  🕵️ OSINT Use Cases
-✔️ Threat Intelligence – Identify malicious domains, phishing campaigns & compromised credentials
-✔️ Digital Forensics – Trace cryptocurrency transactions & track digital footprints
-✔️ Social Engineering Investigations – Gather intel on individuals & organizations
-✔️ Law Enforcement Operations – Locate persons of interest & analyze criminal networks
-✔️ Corporate Security – Conduct background checks & protect company assets
+* Threat Intelligence – Identify malicious domains, phishing campaigns & compromised credentials
+* Digital Forensics – Trace cryptocurrency transactions & track digital footprints
+* Social Engineering Investigations – Gather intel on individuals & organizations
+* Law Enforcement Operations – Locate persons of interest & analyze criminal networks
+* Corporate Security – Conduct background checks & protect company assets
 
  🔗 Additional OSINT Resources
 🔹 [OSINT Framework](https://osintframework.com/) – A directory of OSINT tools

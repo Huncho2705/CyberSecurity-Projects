@@ -42,12 +42,13 @@ Windows & macOS Users
 * Law Enforcement Operations – Locate persons of interest & analyze criminal networks
 * Corporate Security – Conduct background checks & protect company assets
 
- 🔗 Additional OSINT Resources
-(i) [OSINT Framework](https://osintframework.com/) – A directory of OSINT tools
-(ii) [That’s Them](https://thatsthem.com/) – Public record search engine
-(iii) [Epieos](https://epieos.com/) – Email & phone lookup tool
-(iv) [What’s My Name](https://whatsmyname.app/) – Social media username discovery
-(v) [Pipl](https://pipl.com) – People search & identity verification
+ 🔗 Additional OSINT Resources;
+ 
+* [OSINT Framework](https://osintframework.com/) – A directory of OSINT tools
+* [That’s Them](https://thatsthem.com/) – Public record search engine
+* [Epieos](https://epieos.com/) – Email & phone lookup tool
+* [What’s My Name](https://whatsmyname.app/) – Social media username discovery
+* [Pipl](https://pipl.com) – People search & identity verification
 
 ⚠️ Legal & Ethical Considerations
 This guide is for educational purposes only. Unauthorized OSINT investigations may violate privacy laws in various jurisdictions. Users are responsible for ensuring compliance with applicable laws and ethical standards.
